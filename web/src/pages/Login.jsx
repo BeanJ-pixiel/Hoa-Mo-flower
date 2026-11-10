@@ -60,7 +60,7 @@ export default function Login() {
         </Field>
 
         <div className="forgot-row">
-          <a href="#" onClick={(e) => e.preventDefault()}>Quên mật khẩu?</a>
+          <Link to="/forgot-password">Quên mật khẩu?</Link>
         </div>
 
         <p className="message error">{message}</p>

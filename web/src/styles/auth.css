@@ -426,6 +426,7 @@ input {
   .register .auth-visual {
     position: relative;
     min-height: 240px;
+    padding: 25px;
   }
 
   .register .visual-text {
@@ -443,4 +444,11 @@ input {
   .register .auth-form-wrap h2 {
     font-size: 34px;
   }
+}
+
+.submit-btn:disabled {
+  opacity: 0.7;
+  cursor: default;
+  transform: none;
+  box-shadow: none;
 }
